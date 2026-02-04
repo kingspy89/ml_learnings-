@@ -1,40 +1,49 @@
-# ml-learning
-
-Personal repository for learning and practicing Machine Learning.
-
-All code, notebooks, and experiments in this repo are created while learning ML concepts step by step.
 
 ---
 
-## Focus Areas
+## 📌 Purpose
 
-- Python for Machine Learning
-- Math foundations (Linear Algebra, Probability, Statistics)
-- Data preprocessing & feature engineering
-- Supervised learning algorithms
-- Unsupervised learning algorithms
-- Model evaluation & validation
-- Experiments & mini projects
-- Notes and revisions
+This repository is intended as a step-by-step **ML practice and learning resource** covering:
+
+### ✔ Data Preprocessing Techniques
+- Handling missing data (multiple methods)  
+- Feature scaling: **Standardization, Normalization, Power Transformation**  
+- Encoding categorical variables: **One-Hot, Ordinal, Label Encoding**  
+- Binning & Binarization  
+- Feature transformations via `ColumnTransformer`, `FunctionTransformer`  
+- Handling date and time features
+
+### ✔ Exploratory Data Analysis
+- Visualization of datasets (e.g., Titanic dataset)
+- Insights through feature distribution plots and correlations
+
+### ✔ End-to-End ML Workflow
+- Complete pipeline example from raw data to model evaluation  
+- Demonstrates train/test split, preprocessing, model fitting, and metrics
+
+### ✔ Mini Projects
+- **Titanic dataset ML pipeline**  
+  Integrated feature processing, visualization, and model building
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
-- Python
-- NumPy
-- Pandas
-- Matplotlib / Seaborn
-- Scikit-learn
-- Jupyter Notebook
-- Git & GitHub
+This repository uses the following technologies:
+
+- **Python**  
+- **Jupyter Notebook**  
+- **NumPy**, **Pandas**  
+- **Scikit-learn**  
+- **Matplotlib**, **Seaborn**  
+- **Git & GitHub**
 
 ---
 
-## Usage
+## 🚀 Quick Start
 
-Clone the repository:
+1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/ml-learning.git
-cd ml-learning
+git clone https://github.com/kingspy89/ml_learnings-
+cd ml_learnings-
